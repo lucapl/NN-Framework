@@ -13,8 +13,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Build the tensor library
 add_library(tensor SHARED
-    cpp/lib/tensor/tensor.cpp
-    cpp/lib/tensor/tensor_operations.cpp
+    cpp/core/tensor/tensor.cpp
+    cpp/core/tensor/tensor_operations.cpp
 )
 
 # Public include directories
